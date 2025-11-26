@@ -1,8 +1,8 @@
 import sys
-from bank_account import BankAccount  # Import the class from bank_account.py
+from bank_account import BankAccount
 
 def main():
-    account = BankAccount(100)  # Starting balance
+    account = BankAccount(100)  # You can set the starting balance here
 
     if len(sys.argv) < 2:
         print("Usage: python main-0.py <command>:<amount>")
